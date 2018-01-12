@@ -1,0 +1,31 @@
+{
+  "name": "react-app-rewire-svgr",
+  "version": "1.0.0",
+  "description": "Add SVGR loader to create-react-app using react-app-rewired",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com/gitim/react-app-rewire-svgr-loader.git"
+  },
+  "author": "Tim Gibadullin <tim.gibadullin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitim/react-app-rewire-svgr-loader/issues"
+  },
+  "keywords": [
+    "react-app-rewired",
+    "create-react-app",
+    "webpack",
+    "svg",
+    "svgr",
+    "react",
+    "component",
+    "svg2react",
+    "svg-to-react"
+  ],
+  "dependencies": {
+    "svgr": "^1.6.0"
+  },
+  "peerDependencies": {
+    "react-app-rewired": "^1.4.0"
+  }
+}
