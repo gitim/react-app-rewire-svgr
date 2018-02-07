@@ -30,7 +30,7 @@ module.exports = function override(config, env) {
 ```
 In your React application:
 ```js
-import Star from './star.svg'
+import starUrl, { ReactComponent as Star } from './star.svg'
 
 const App = () => (
   <div>
