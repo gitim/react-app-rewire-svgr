@@ -38,3 +38,17 @@ const App = () => (
   </div>
 )
 ```
+
+Also you can pass options to svgr webpack loader via third parameter
+```js
+/* config-overrides.js */
+
+const rewireSVGR = require('react-app-rewire-svgr');
+
+module.exports = function override(config, env) {
+    // ...
+    config = rewireSVGR(config, env, { svgo: false });
+    // ...
+    return config;
+}
+```
