@@ -23,7 +23,7 @@
     "svg-to-react"
   ],
   "dependencies": {
-    "svgr": "^1.9.2"
+    "svgr": "^1.10.0"
   },
   "peerDependencies": {
     "react-app-rewired": "^1.5.2"
