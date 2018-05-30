@@ -1,6 +1,6 @@
 {
   "name": "react-app-rewire-svgr",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Add SVGR loader to create-react-app using react-app-rewired",
   "repository": {
     "type": "git",
