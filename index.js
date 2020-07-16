@@ -29,10 +29,11 @@ const addBeforeRule = (rulesSource, ruleMatcher, value) => {
   rules.splice(index, 0, value);
 };
 
-module.exports = function (config, env) {
+module.exports = function (config, env, svgrLoaderOptions) {
   const svgReactLoader = {
     test: /\.svg$/,
     loader: require.resolve("@svgr/webpack"),
+    options: svgrLoaderOptions,
   };
 
   addBeforeRule(config.module.rules, fileLoaderMatcher, svgReactLoader);
